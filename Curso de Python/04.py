@@ -1,0 +1,6 @@
+n = int(input("Digite um número "))
+print("_"*9)
+print("{} x {} = {}".format(n,1,n*1))
+print("{} x {} = {}".format(n,2,n*2))
+print("{} x {} = {}".format(n,3,n*3))
+print("{} x {} = {}".format(n,4,n*4))
