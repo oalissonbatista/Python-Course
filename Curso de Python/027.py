@@ -1,4 +1,5 @@
 nome = input("Digite seu nome completo: ").strip()
+# 
 separado = nome.split()
 Primeiro= separado[0]
 Ultimo = separado[-1]

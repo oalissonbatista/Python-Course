@@ -1,3 +1,4 @@
+# Mudando formatação da string
 nomeCompleto = str(input('Digite o nome completo: '))
 upperNome = nomeCompleto.upper()
 lowerNome = nomeCompleto.lower()

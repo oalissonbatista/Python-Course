@@ -1,5 +1,5 @@
 frase = str(input("Digite uma frase: ")).upper().strip()
-
+# contragem de string
 count = frase.count('A')
 a = frase.find('A') +1
 ultimo = frase.rfind('A')+1

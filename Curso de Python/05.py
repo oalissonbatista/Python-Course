@@ -1,3 +1,4 @@
+# porcentagem aumento de salário
 salario= float(input("Qual o valor do seu salario?")) 
 aumento = 15/100 * salario
 novoSalario= salario + aumento

@@ -1,4 +1,5 @@
 from random import choice
+# SORTEIO
 Primeiro = str(input('Primeiro aluno: '))
 Segundo = str(input('Segundo aluno: '))
 Terceiro = str(input('Terceiro aluno: '))

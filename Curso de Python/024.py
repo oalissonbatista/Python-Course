@@ -1,5 +1,5 @@
 from xmlrpc.client import boolean
-
+# verificação de nome
 cidade =str(input("Digite o nome da cidade: "))
 cidade.capitalize()
 separado = cidade.split()

@@ -1,5 +1,5 @@
 from math import hypot
-
+# hipotenusa
 cto = float(input("Comprimento do Cateto oposto:"))
 cta = float(input("Comprimento do Cateto adjacente:"))
 hipotenusa = hypot(cto,cta)

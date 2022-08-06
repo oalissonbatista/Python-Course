@@ -1,3 +1,4 @@
+# Transformação de Graus para Farenheit
 celsius = float(input("Qual a temperatura em graus Celsius?"))
 faren = (celsius * (9/5))+32
 

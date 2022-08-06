@@ -1,3 +1,4 @@
+# Nota de um aluno
 individual= float(input("Nota do experimento individual:"))
 grupo = float(input("Nota da apresentação em grupo:"))
 atividades = float(input("Nota das atividades:"))

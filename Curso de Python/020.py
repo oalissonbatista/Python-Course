@@ -1,4 +1,5 @@
 from random import shuffle
+# LISTA EM ORDEM
 Primeiro = str(input('Primeiro nome: '))
 Segundo = str(input('Segundo nome: '))
 Terceiro = str(input('Terceiro nome: '))
