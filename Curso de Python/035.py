@@ -1,3 +1,4 @@
+#Se pode formar triângulo ou não
 r1 = float(input("Digite o comprimento da Reta 1:"))
 r2 = float(input("Digite o comprimento da Reta 2:"))
 r3 = float(input("Digite o comprimento da Reta 3:"))

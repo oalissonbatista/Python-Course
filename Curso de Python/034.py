@@ -1,3 +1,4 @@
+#Aumento salario
 salario = float(input("Digite o salario do funcionario:"))
 if salario > 1250:
     aumento = (10/100)*salario

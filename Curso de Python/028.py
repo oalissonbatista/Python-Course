@@ -1,4 +1,5 @@
 import random
+#adivinhando numero
 n = [0,1,2,3,4,5]
 escolhido = random.choice(n)
 

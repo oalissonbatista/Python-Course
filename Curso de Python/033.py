@@ -1,3 +1,4 @@
+#Maior e menor numero
 n1 = float(input("Digite um número:"))
 n2 = float(input("Digite um número:"))
 n3 = float(input("Digite um número:"))

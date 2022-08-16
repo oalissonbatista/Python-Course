@@ -1,3 +1,4 @@
+#Taximetro
 distancia = float(input("Qual a distância da viagem?"))
 if distancia <= 200:
     valor = 0.50*distancia
