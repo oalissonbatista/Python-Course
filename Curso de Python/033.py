@@ -22,5 +22,6 @@ elif n3 >= n2 >= n1:
     print("{} é o maior".format(n3))
     print("{} é o menor".format(n1))
 
-else: 
-    print("erro")
+#menor = a
+#if b < a and b < c:
+#   menor = b
