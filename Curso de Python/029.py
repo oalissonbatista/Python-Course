@@ -1,8 +1,8 @@
 #Pardal
 velocidade = float(input("Qual a velocidade do carro?"))
 if velocidade >80:
-    print("MULTADO! Você excedeu o limite de velocidade que é de 80Km/h")
+    print("\033[4;31mMULTADO! Você excedeu o limite de velocidade que é de 80Km/h\033[m" )
     valor = ((velocidade - 80)*7)
-    print("O valor da multa é de R${:.2f}".format(valor))
+    print("\033[4;34mO valor da multa é de R${:.2f}\033[m".format(valor))
 else: 
-    print("Velocidade normal")
+    print("\033[34mVelocidade normal")
