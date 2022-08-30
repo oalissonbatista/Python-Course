@@ -7,7 +7,7 @@
 #TEXTO COR 30 - 37
 # branco = 40
 # vermelho = 31
-# ver = 32
+# verde = 32
 # amarelo = 33
 # azul = 34
 # roxo = 35
@@ -24,3 +24,5 @@
 #roxo = 45
 #azul marinho = 46
 #cinza = 47
+
+#\033[4;31;41m
