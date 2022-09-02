@@ -1,26 +1,30 @@
-from random import choice
+from random import choice, randint
 from time import sleep
-
-pedra = 1
-papel = 2
-tesoura = 3
-escolha = int(input("\033[4;33;41m-------Jokenpô--------\033[m\nDigite 1 para PEDRA\nDigite 2 para PAPEL\nDigite 3 para TESOURA\n"))
-comp = [pedra,papel,tesoura]
-pc = choice(comp)
-print("pc == {}".format(pc))
+itens = ['pedra','papel','tesoura']
+computador = randint(0,2)
+escolha = int(input("""\033[4;33;41m
+-------Jokenpô--------\033[m\n
+Digite [0] para PEDRA\n
+Digite [1] para PAPEL\n
+Digite [2] para TESOURA\n
+Qual a sua jogada? """))
 print("\033[35mPROCESSANDO...\033[m")
 sleep(2)
-if (pc == escolha):
+print("-"*25)
+print("Você jogou {}".format(itens[escolha]))
+print("O computador jogou {}".format(itens[computador]))
+print('-'*25)
+if (computador == escolha):
     print("Não houve vencedor.")
-elif pc == pedra and escolha == 2:
+elif computador == 0 and escolha == 1:
     print("Você ganhou!")
-elif pc == pedra and escolha == 3:
+elif computador == 0 and escolha == 2:
     print("\033[31mVocê perdeu!\033[m")
-elif pc == papel and escolha == 3:
+elif computador == 1 and escolha == 2:
     print("Você ganhou!")
-elif pc == papel and escolha == 1:
+elif computador == 1 and escolha == 0:
     print("\033[31mVocê perdeu!\033[m")
-elif pc == tesoura and escolha == 1:
+elif computador == 2 and escolha == 0:
     print("Você ganhou!")
-elif pc == tesoura and escolha ==2:
+elif computador == 2 and escolha == 1:
     print("\033[31mVocê perdeu!\033[m")
