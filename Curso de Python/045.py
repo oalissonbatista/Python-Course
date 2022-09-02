@@ -3,7 +3,7 @@ from time import sleep
 itens = ['pedra','papel','tesoura']
 computador = randint(0,2)
 escolha = int(input("""\033[4;33;41m
--------Jokenpô--------\033[m\n
+--------Jokenpô--------\033[m\n
 Digite [0] para PEDRA\n
 Digite [1] para PAPEL\n
 Digite [2] para TESOURA\n
