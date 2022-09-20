@@ -1,4 +1,4 @@
-print("Digite o intervalo para separação dos números pares.")
+print("Digite o intervalo para separação dos números pares: ")
 inicio = int(input("inicio: "))
 fim = int(input("fim: "))
 print("\033[31mOs números pares ente {} e {} são: \033[m".format(inicio,fim))
