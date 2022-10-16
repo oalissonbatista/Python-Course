@@ -5,7 +5,12 @@ for k in range (1,7+1):
     ano = int(input("Qual seu ano de nascimento? "))
     idade = (date.today().year - ano)
     if idade >= 18:
-        ma = k
+        ma += 1
     elif idade < 18:
-        me = k - ma
-print("{} são maiores de idade e {} não são.".format(ma,me))
+        me +=1
+if me == 0:
+    print("Todos são maiores de idade")
+elif ma == 0:
+    print("Todos são menores de idade")
+else:
+    print("{} são maiores de idade e {} não são.".format(ma,me))

@@ -1,10 +1,10 @@
 n = int(input("Digite um número: "))
-mult = 0
-for k in range (2,n):
+cont = 0
+for k in range (1,n +1):
     if n % k == 0:
         print("É multiplo de {}".format(k))
-        mult +=1
-if mult == 0:
+        cont += 1
+if cont == 2:
     print("\033[31mÉ um número primo!\033[m")
 else:
     print("\033[31mNão é primo!\033[m")

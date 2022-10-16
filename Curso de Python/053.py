@@ -1,10 +1,20 @@
-f = str(input("Digite uma frase: "))
+f = (str(input("Digite uma frase: "))).strip().upper()
 fsem= f.replace(" ","")
+inverso = ''
 print(fsem)
-
-if fsem == "".join(reversed(fsem)):
-    print("é palindromo") 
+#print("".join(reversed(fsem)))
+for letra in range(len(fsem) -1, -1, -1):
+    inverso += fsem[letra]
+print (inverso)
+if inverso == fsem:
+    print("É um palíndromo")
 else:
-    print("não é palíndromo")
+    print("Não é um palíndromo")
+
+
+#if fsem == "".join(reversed(fsem)):
+ #   print("é palindromo") 
+#else:
+#    print("não é palíndromo")
 
 
