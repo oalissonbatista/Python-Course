@@ -2,8 +2,9 @@ maiores = Fmenor20 =  homens = 0
 while True:
     print("-"* 20 + "\nCadastre uma pessoa\n" + "-"*20)
     idade = int(input("Idade: "))
-    sexo = input("Sexo [F/M]: ").upper().strip()[0]
-    
+    sexo = ' '
+    while sexo not in "FM":
+        sexo = str(input("Sexo [F/M]: ")).upper().strip()[0]
     if idade >= 18:
         maiores +=1
     if sexo == 'M':
